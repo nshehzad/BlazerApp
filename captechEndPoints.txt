@@ -1,0 +1,57 @@
+captech endpoints:
+
+SAML-P sign-on endpoint: https://login.microsoftonline.com/ae9d6e9a-cc18-4204-ac29-43a0ccb860e8/saml2
+
+federation metadeta: https://login.microsoftonline.com/ae9d6e9a-cc18-4204-ac29-43a0ccb860e8/federationmetadata/2007-06/federationmetadata.xml?appid=2449fe1f-1bff-4223-b85c-783904943b1f
+
+entity id: https://sts.windows.net/ae9d6e9a-cc18-4204-ac29-43a0ccb860e8/
+
+clientId: 2449fe1f-1bff-4223-b85c-783904943b1f
+
+tenant id: ae9d6e9a-cc18-4204-ac29-43a0ccb860e8
+
+domain: CapTechVenturesInc.onmicrosoft.com
+
+home page url for saml:
+https://localhost:44358/saml2/acs
+
+            //services.ConfigureApplicationCookie(options =>
+            //{
+            //    options.Events.OnRedirectToLogin = context =>
+            //    {
+            //        context.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
+            //        return Task.CompletedTask;
+            //    };
+            //});
+
+reply uri: https://localhost:5001/authentication/login-callback
+
+client:
+
+{
+  "AzureAd": {
+    "Authority": "https://login.microsoftonline.com/ae9d6e9a-cc18-4204-ac29-43a0ccb860e8",
+    "ClientId": "2449fe1f-1bff-4223-b85c-783904943b1f",
+    "ValidateAuthority": true
+    
+  }
+}
+ 
+
+server:
+{
+  "AzureAd": {
+    "Instance": "https://login.microsoftonline.com//ae9d6e9a-cc18-4204-ac29-43a0ccb860e8",
+    "Domain": "CapTechVenturesInc.onmicrosoft.com",
+    "TenantId": "ae9d6e9a-cc18-4204-ac29-43a0ccb860e8",
+    "ClientId": "2449fe1f-1bff-4223-b85c-783904943b1f"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}

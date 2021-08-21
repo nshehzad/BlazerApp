@@ -1,0 +1,24 @@
+https://code-maze.com/using-azure-active-directory-to-secure-a-blazor-webassembly-standalone-app/
+
+
+https://www.syncfusion.com/blogs/post/how-to-authenticate-a-blazor-webassembly-hosted-app-with-azure-active-directory.aspx
+
+
+"Audience": "https://contoso.onmicrosoft.com/https://localhost:5000"
+
+
+https://developer.microsoft.com/en-us/microsoft-365/blogs/how-to-build-a-blazor-web-app-with-azure-active-directory-authentication-and-microsoft-graph/
+
+
+https://docs.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/hosted-with-azure-active-directory?view=aspnetcore-3.1#register-a-client-app
+
+
+https://developer.okta.com/blog/2020/10/23/how-to-authenticate-with-saml-in-aspnet-core-and-csharp
+
+https://developer.okta.com/blog/2020/09/30/blazor-webassembly-wasm-dotnetcore
+
+jwt:
+https://jasonwatmore.com/post/2020/08/13/blazor-webassembly-jwt-authentication-example-tutorial
+
+using saml with keys in json:
+https://stackoverflow.com/questions/63419568/is-there-a-way-to-have-an-external-authentication-in-blazor-without-use-of-datab

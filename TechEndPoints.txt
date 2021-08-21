@@ -1,0 +1,55 @@
+App Display Name: Storm Protection Plan 
+
+Application (client) ID: 	d12ad0cb-26ea-4528-92c1-53d3e5969069 
+
+Object ID:  65b01b48-d05f-4b43-bac6-622b4d17dbcf 
+
+Directory (tenant) ID: fa8c194a-f8e2-43c5-bc39-b637579e39e0 
+
+Client Secret:  v_p_T0vgmnvIAn1~~dZX~y_GO79qWs65NJ (value) 
+
+Client Secret:  1c50fc66-36ba-4b16-8199-02fbced16ee8 (secret) 
+
+Microsoft Graph API endpoint: https://graph.microsoft.com 
+
+Federation metadata document: https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0/federationmetadata/2007-06/federationmetadata.xml 
+
+WS-Federation sign-on endpoint: https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0/wsfed 
+
+SAML-P sign-on endpoint: https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0/saml2 
+
+SAML-P sign-out endpoint: https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0/saml2 
+
+Federation metadata document: https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0/federationmetadata/2007-06/federationmetadata.xml 
+
+client
+{
+  "AzureAd": {
+    "Authority": "https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0",
+    "ClientId": "d12ad0cb-26ea-4528-92c1-53d3e5969069",
+    "ValidateAuthority": true
+
+  }
+}
+
+server:
+{
+  "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/fa8c194a-f8e2-43c5-bc39-b637579e39e0",
+    "Domain": "tecoenergy.onmicrosoft.com",
+    "TenantId": "fa8c194a-f8e2-43c5-bc39-b637579e39e0",
+    "ClientId": "d12ad0cb-26ea-4528-92c1-53d3e5969069"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+ 
+
+ 
